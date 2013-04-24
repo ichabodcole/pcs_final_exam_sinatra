@@ -1,4 +1,4 @@
-require 'sinatra'
+require 'rubygems'
 require 'bundler'
 
 Bundler.require

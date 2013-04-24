@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="hero-unit">
+    <h1>Hello Sinatra!</h1>
+    You are here: <%= @display_text %>
+  </div>
+  <form action="/entries/1" method="post">
+    <input type="hidden" name="_method" value="put">
+    <button class="btn btn-primary btn-large">Submit</button>
+  </form>
+</div>
